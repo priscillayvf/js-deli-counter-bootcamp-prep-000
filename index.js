@@ -21,3 +21,11 @@ function currentLine(line) {
   } else return "The line is currently empty."
 
 }
+
+var lineC = 0;
+
+function giveANumber(line) {
+
+  lineC++;
+  line.push(lineC)
+}
